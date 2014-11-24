@@ -1,0 +1,16 @@
+---
+title: "Cables in electric power transmission"
+output: html_document
+---
+
+## Context
+
+The cables that are used in today's electric power systems consist of a concentric conductor (generally copper or aluminium), the dielectric isolating material (e.g. PVC) and a metallic shield which is grounded normally on both sides. Hence, a cables typically behaves like a capacitor. When operated with alternating current (which is the case except some particular point-to-point-connections), this capacity is charged and decharged with the system frequency.  
+The power that can be transmitted over a cable is limited by the current, or more precisely: the current determines the losses inside the conductor which are transformed into heat. And it is mainly the isolating material which is irreversibly damaged in case of over-temperature.  
+Hence, the current rating is defined by the material and it applies to both active and reactive current. While the  active current is able to transmit power, the reactive current is necessary for the described charging process without being useful. The so-called charging current increases with the cables length. The maximum cable length is reached when the charging current equals the contiuous current carrying capacity and, thus, no active power can be transmitted any more. However, only half of this maximum cable length is considered as useful cable length.  
+
+## Calculations
+
+As a first step, based on technical cable data like voltage, reactance, capacitance and rated current, this shiny tool calculates characteristic parameters for a lossless cable, such as characteristic impedance, propagation constant, and natural loading.  
+Next, the charging current for an unloaded cable (no consumer connected at the end) is calculated for a given cable length. The graph gives an idea what portion of the current carrying capacity of the cable is used for the charging current or if already only the charging current would exceed the maximum permissiblecurrent.
+
