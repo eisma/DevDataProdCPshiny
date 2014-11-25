@@ -1,5 +1,5 @@
 ---
-title: "Cables in electric power transmission"
+title: "Cables in Electrical Power Transmission"
 output: html_document
 ---
 
@@ -12,5 +12,5 @@ Hence, the current rating is defined by the material and it applies to both acti
 ## Calculations
 
 As a first step, based on technical cable data like voltage, reactance, capacitance and rated current, this shiny tool calculates characteristic parameters for a lossless cable, such as characteristic impedance, propagation constant, and natural loading.  
-Next, the charging current for an unloaded cable (no consumer connected at the end) is calculated for a given cable length. The graph gives an idea what portion of the current carrying capacity of the cable is used for the charging current or if already only the charging current would exceed the maximum permissiblecurrent.
+Next, the charging current for an unloaded cable (no consumer connected at the end) is calculated for a given cable length. The graph gives an idea what portion of the current carrying capacity of the cable is used for the charging current or if already only the charging current would exceed the maximum permissible current.
 

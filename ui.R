@@ -1,7 +1,7 @@
 library(shiny)
 shinyUI(pageWithSidebar(
 
-  headerPanel("Cables in electric power transmission"),
+  headerPanel("Cables in Electrical Power Transmission"),
   
   sidebarPanel(
     numericInput('f', 'system frequency in Hertz', 50, min = 50, max = 60, step = 10),
